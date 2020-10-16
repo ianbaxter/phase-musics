@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  & > * {
+    margin-top: 0.8rem;
+  }
+}
+
+.controls > * {
+  margin-top: 0.8rem;
+}
